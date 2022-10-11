@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="./index.css">
 
     </head>
-    <body>
+    <body class="bg-dark">
 
         <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
@@ -36,24 +36,51 @@
                     <a href="#projects" class="nav-link">Projects</a>
                 </li>
             </ul>
-            <a href="#landing" class="navbar-brand mx-3 d-none d-lg-inline">Joncello</a>
+            <a href="#about-me" class="navbar-brand mx-3 d-none d-lg-inline">Joncello</a>
             <ul class="navbar-nav pl-0 mr-auto text-center text-md-left">
                 <li class="nav-item">
                     <a href="#tools" class="nav-link">Tools</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contacts</a>
                 </li>
             </ul>
         </div>
     </nav>
         <!-- End of Navbar -->
+
+        <!-- content -->
         <div class="container-fluid" >
-        	<div class="bg-1">
-        		<div class="img-1">	
+
+
+        	<!-- Home -->
+
+        	<div class="p-5">
+        	<div class="bg-3">
+        		<div class="img-3">	
             <div class="row justify-content-center align-items-center py-4 py-lg-5 " id="landing">
                 <div class="col-10 col-md-3 p-3 py-lg-5">
-                    <img src="./images/me.jpeg" class="rounded-circle border border-dark img-fluid">
+                    <img src="https://img.freepik.com/free-vector/cute-astronaut-holding-flag-moon-cartoon-vector-icon-illustration-science-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4115.jpg?w=740&t=st=1665478080~exp=1665478680~hmac=fdb4f5d75c22fdba7c73475459a61b840baf4d7d026e3a476953605bd67bb616"class="rounded-circle img-fluid" style="width:300px; height: 300px;">
+                </div>
+                <div class="col-md-7 col-lg-5 text-white pl-md-5 py-lg-5 ">
+                    <h1 class="mt-2 text-center text-md-left">HELLO!!!</h1>
+                    <h3 class="my-3 text-center text-md-left">WELCOME TO MY PORTFOLIO</h3>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        	
+        	<!-- end of home -->
+
+
+        	<!-- About Me -->
+        	<div class="p-5">
+        	<div class="bg-1">
+        		<div class="img-1">	
+            <div class="row justify-content-center align-items-center py-4 py-lg-5 " id="about-me">
+                <div class="col-10 col-md-3 p-3 py-lg-5">
+                    <img src="./images/me.jpeg "class="rounded-circle img-fluid" style="width:300px; height: 300px;">
                 </div>
                 <div class="col-md-7 col-lg-5 text-white pl-md-5 py-lg-5 ">
                     <h1 class="mt-2 text-center text-md-left">Joncello Diosma</h1>
@@ -65,15 +92,12 @@
             </div>
             </div>
             </div>
+            </div>
             <!-- End of About Me -->
+            
+
             <!-- My Projects -->
-
-
-         
-
-
-
-            <h1 class="mt-5 mb-1 text-center" >My Projects</h1>
+            <h1 class="mt-5 mb-1 text-center text-light" >My Projects</h1>
             <div class="card-deck my-5 justify-content-center" id="projects" >
               <div class="card col-md-3">
                  <img src="https://image.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories-vector-isolated-concept-metaphor-illustration_335657-2764.jpg" class="card-img-top" alt="..."> 
@@ -114,7 +138,10 @@
             <div class="text-center text-light "  id="tools" >
           <div class="bg-2">
           	<div class="img-2">
+          		<!-- End of My Projects -->
 
+
+          		<!-- Tools -->
                 <h1 class="my-1 text-center" >Tools</h1>
                                        <h3 class="my-3 text-center">Core Tools</h3>
                         <div class="row justify-content-center">
@@ -146,13 +173,14 @@
                         </div>
                        </div>
                         </div>
+                        <!-- End of Tools -->
                                    
            
             <!-- contact -->
-            <h1 class="text-center my-5 " id="contact">Contact</h1>
+            <h1 class="text-center my-5 text-light" id="contact">Contact</h1>
             <div class="row justify-content-center mb-5">
                 <div class="col-3 col-md-1">
-                    <a href="https://www.facebook.com/joncello.diosma.52/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/joncello.diosma.52" target="_blank"><i class="fab fa-facebook"></i></a>
                 </div>
                 <div class="col-3 col-md-1">
                     <a href="https://www.linkedin.com/in/joncello-diosma-11251a240/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -161,55 +189,63 @@
                     <a href="https://gitlab.com/Cello888" target="_blank"><i class="fab fa-gitlab"></i></a>
                 </div>
             </div>
+            <!-- End of Contacts -->
 
+
+
+            <!-- Message  us -->
             <div class="container bg-secondary mb-5 p-5">
             <div class="text-center justify-content-center">
               
-                <div >
+               
                     <h4 class="text-center my-4">Message Us</h4>
-                    <form>
-                        <div class="form-group">
+                    <form class="container">
+                        <div class="form-group container">
                             <label>Full Name</label>
                             <input type="text" class="form-control" required autocomplete>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group container">
                             <label>Email Address</label>
                             <input type="email" class="form-control" required autocomplete>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group container">
                             <label>Message</label>
                             <textarea class="form-control"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-outline-dark btn-block btn-primary " data-toggle="modal" data-target="#mymodal">Send</button>
+                        <button type="submit" class="btn btn-outline-dark btn-block btn-primary container " data-toggle="modal" data-target="#mymodal">Send</button>
                     </form>
                 </div>
+            
             </div>
-            </div>
-            	<div class="modal" id="mymodal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Thank you for  contacting us!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Message Successfully Sent</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+					            	<div class="modal" id="mymodal" tabindex="-1">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title">Thank you for  contacting us!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <p>Message Successfully Sent</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- end of message us -->
         </div>
-        <footer class="mt-5 p-3 bg-primary text-light">
+        <!-- end of content -->
+
+        <!-- footer -->
+        <footer class="p-1 bg-primary text-light">
             <h6 class="text-center">Joncello Diosma</h6>
-            <p class="text-center mb-1">Full Stack Web Developer</p>
-            <p class="text-center">&copy; All Rights Reserved 2021</p>
+            <p class="text-center">&copy; All Rights Reserved 2022</p>
 
         </footer>
+        <!-- end of footer -->
 
 
 

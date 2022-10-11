@@ -1,13 +1,12 @@
 
 .bg-1 {
-	 background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_52683-69199.jpg?w=826&t=st=1665458125~exp=1665458725~hmac=c8cdc5200053d6f1a1a3bd08af5ebf368b07badcb424ab81b8f433025beb195c);
+	 background-image: url(https://img.freepik.com/free-vector/circuits-blue-red-gradient-digital-background_23-2148821701.jpg?w=740&t=st=1665478695~exp=1665479295~hmac=03507c292c882ee502bfa635b07a8dc444389dcc2630be846e3669911fddc923);
 	min-height: 20rem;
-    
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: center ;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: gray;
 }
 
 .img-1 {
@@ -16,11 +15,27 @@
 	min-height: 20rem;
 }
 
+.bg-3 {
+	 background-image: url(https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?w=740&t=st=1665478924~exp=1665479524~hmac=7a2e8ad5245f5e9316d2ca38e0e3b6fc7cec8dba816807a269b68a0aae0025ec);
+	min-height: 20rem;
+	background-size: 100% 100%;
+	background-position: center ;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: gray;
+}
+
+.img-3 {
+
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 20rem;
+}
+
 
 .bg-2 {
 	min-height: 20rem;
-   background-image: url(https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149227639.jpg?w=740&t=st=1665457996~exp=1665458596~hmac=7132492b6930d85d6ddef719d163793d39a2b16e1f0562d51b87850c7e1dae66);
-	background-size: 100%;
+   background-image: url(https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg?w=740&t=st=1665479093~exp=1665479693~hmac=3b487e69e0e25921beae2ca69b8d8bcc20a8a8fafb65c3c371d5beafd01ab5c2);
+	background-size: 100% 100%;
 	background-position: center ;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -30,7 +45,7 @@
 
 .img-2{
 
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.6);
 	min-height: 20rem;
 }
 .card-title {
