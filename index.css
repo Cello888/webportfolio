@@ -1,0 +1,54 @@
+
+.bg-1 {
+	 background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_52683-69199.jpg?w=826&t=st=1665458125~exp=1665458725~hmac=c8cdc5200053d6f1a1a3bd08af5ebf368b07badcb424ab81b8f433025beb195c);
+	min-height: 20rem;
+    
+	background-size: 100%;
+	background-position: center ;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.img-1 {
+
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 20rem;
+}
+
+
+.bg-2 {
+	min-height: 20rem;
+   background-image: url(https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149227639.jpg?w=740&t=st=1665457996~exp=1665458596~hmac=7132492b6930d85d6ddef719d163793d39a2b16e1f0562d51b87850c7e1dae66);
+	background-size: 100%;
+	background-position: center ;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: black;
+    
+}
+
+.img-2{
+
+	background-color: rgba(0, 0, 0, 0.3);
+	min-height: 20rem;
+}
+.card-title {
+	text-align: center;
+}
+
+.fab {
+	font-size: 4rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	font-family: "Poppins",sans-serif;
+}
+
+h1,h2,h3,h4, .nav-link,.card-title {
+	font-family: "Lora",serif;
+}
